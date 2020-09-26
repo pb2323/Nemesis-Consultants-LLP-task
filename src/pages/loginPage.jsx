@@ -79,11 +79,4 @@ class Login extends Component {
   }
 }
 
-const mapStateToProps = (storeState) => {
-  console.log(storeState);
-  return {
-    user: storeState.userState.user,
-  };
-};
-
 export default Login;
